@@ -1,0 +1,26 @@
+What an exciting Fischer Random Chess (or Chess960) tournament it was the other week in St. Louis, MO!
+https://www.uschesschamps.com/2019-champions-showdown-chess-9LX/overview
+
+Naturally, I've decided to commemorate the event by writing a small utility program for generating a random Chess960 position.
+
+Sample output:
+
+C:\Py>python generate-chess960-position.py
+Ra1 Nb1 Kc1 Bd1 Be1 Nf1 Qg1 Rh1
+
+C:\Py>python generate-chess960-position.py
+Ba1 Bb1 Nc1 Rd1 Qe1 Kf1 Ng1 Rh1
+
+C:\Py>python generate-chess960-position.py
+Na1 Rb1 Nc1 Kd1 Qe1 Bf1 Bg1 Rh1
+
+C:\Py>python generate-chess960-position.py
+Qa1 Rb1 Kc1 Bd1 Be1 Nf1 Ng1 Rh1
+
+C:\Py>python generate-chess960-position.py
+Ba1 Bb1 Nc1 Rd1 Qe1 Nf1 Kg1 Rh1
+
+C:\Py>python generate-chess960-position.py
+Ra1 Nb1 Bc1 Qd1 Ke1 Bf1 Ng1 Rh1
+
+That's right, the last generated one is a regular chess game starting position, which is also valid for Chess960 tournaments, but it never gets played as for that there are regular chess tournaments.
